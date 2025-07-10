@@ -1,0 +1,10 @@
+# wrangler.toml
+
+[[d1_databases]]
+binding = "DB" # 在代码中使用的变量名
+database_name = "flamelink-database"
+database_id = "2c16240f-52fe-45e2-b07f-b20762bccea4" # 替换成你的 D1 ID
+
+[[r2_buckets]]
+binding = "R2_BUCKET" # 在代码中使用的变量名
+bucket_name = "flamelink-assets"
